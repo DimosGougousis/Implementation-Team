@@ -18,4 +18,5 @@ Track data quality across all migration domains, define profiling and cleansing 
 | `mapping-specifications/` | Source → Transact domain field mappings |
 | `quality-gates.md` | Per-milestone gating thresholds |
 | `migration-strategy.md` | End-to-end migration approach |
+| `_reference-guide.md` | Data Migration & Quality Assurance competency guide |
 | `rehearsal-results/` | Migration rehearsal result templates |

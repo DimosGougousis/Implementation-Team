@@ -19,3 +19,4 @@ Define the complete target-state for the Temenos Transact implementation includi
 | `component-model.md` | Logical component diagram (Mermaid) |
 | `security-architecture.md` | Auth, encryption, key management, network zones |
 | `technology-standards.md` | Approved tech stack, version matrix |
+| `_reference-guide.md` | Target-State Architecture & Systems Thinking competency guide |

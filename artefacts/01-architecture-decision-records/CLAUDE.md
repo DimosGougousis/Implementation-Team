@@ -16,3 +16,4 @@ Capture all significant architectural decisions with full context, options consi
 | `adr-register.md` | Master index: ADR# → title → status → date → linked requirement |
 | `traceability-matrix.md` | Requirement → ADR → implementation mapping |
 | `decisions/` | Individual ADR files (ADR-001.md, ADR-002.md, ...) |
+| `_reference-guide.md` | ADRs & Traceability competency guide |

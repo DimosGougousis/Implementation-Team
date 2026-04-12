@@ -18,4 +18,5 @@ Design the post-go-live target operating model including run-state org structure
 | `change-management.md` | Post-go-live change request process |
 | `upgrade-cadence.md` | Temenos release adoption plan |
 | `hypercare-plan.md` | Stabilisation → steady-state handover |
+| `_reference-guide.md` | Post-Transformation Operating Model Design competency guide |
 | `continuous-improvement.md` | Improvement backlog, feedback loops |

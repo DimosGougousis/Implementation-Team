@@ -18,4 +18,5 @@ Produce the minute-by-minute cutover script, define rollback triggers and go/no-
 | `communication-plan.md` | Who gets told what, when |
 | `rehearsal-log.md` | Per-rehearsal results with timing deltas |
 | `rehearsals/` | Individual rehearsal result templates |
+| `_reference-guide.md` | Programme Structuring & Agile at Scale competency guide |
 | `checklist.md` | Pre-cutover readiness checklist |

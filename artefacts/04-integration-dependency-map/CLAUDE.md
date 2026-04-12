@@ -18,4 +18,5 @@ Map all system-to-system touchpoints, define API and event contracts, establish 
 | `event-contracts/` | Per-event contract specifications |
 | `adapter-strategy.md` | Temenos fulfilment service model, middleware patterns |
 | `sla-matrix.md` | System × system SLA grid |
+| `_reference-guide.md` | RESTful & Event-Driven Integration Design competency guide |
 | `owner-matrix.md` | System × owner × support contact |

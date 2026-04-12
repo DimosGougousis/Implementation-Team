@@ -16,3 +16,13 @@ Each folder contains the constituent output files that make up a major programme
 | 06 | Test Strategy & KPI Dashboard | 5 - Testing | Acceptance Criteria & Automated Evaluations |
 | 07 | Cutover Runbook | 7 - Cutover | Programme Structuring & Agile at Scale |
 | 08 | Post-Go-Live Operating Model | 8 - Hypercare | Post-Transformation Operating Model Design |
+
+## Reference Guides
+
+Each artefact folder contains a `_reference-guide.md` that explains the CV competency it supports — when to apply it, what quality signals to look for, and how to narrate the value to the Steering Committee.
+
+Two cross-cutting competencies live outside artefacts/:
+- **Stakeholder & Vendor Orchestration** → `governance/stakeholder-and-vendor-orchestration.md`
+- **Business Process Alignment & Redesign** → `business-processes/process-alignment-and-redesign.md`
+
+See `artefacts/_reference-guides-README.md` for the full convention.

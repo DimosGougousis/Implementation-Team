@@ -17,3 +17,4 @@ Systematically assess each Transact module against business requirements, score 
 | `customisation-requests/` | Individual customisation request forms |
 | `module-assessments/` | Per Transact module assessment reports |
 | `workshop-notes/` | Fit-gap workshop session notes |
+| `_reference-guide.md` | Fit-Gap Analysis & Customisation Governance competency guide |

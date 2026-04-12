@@ -18,4 +18,5 @@ Define the four-phase test strategy, establish entry/exit criteria per phase, tr
 | `defect-taxonomy.md` | Severity/priority classification, SLA per category |
 | `test-data-strategy.md` | Sourcing, masking, refresh |
 | `environment-matrix.md` | Test environments: purpose, data, access, refresh |
+| `_reference-guide.md` | Acceptance Criteria & Automated Evaluations competency guide |
 | `test-cycles/` | Per-cycle result templates |
