@@ -1,0 +1,6 @@
+{
+  "files.associations": {
+    "*.agent.md": "markdown"
+  },
+  "markdown.preview.breaks": true
+}
