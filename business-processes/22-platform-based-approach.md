@@ -41,3 +41,27 @@ The platform-based approach processes provides a comprehensive and detailed unde
 
 ## Gap Notes
 <!-- Identified gaps and customisation requirements -->
+
+
+## Transact Module & API Coverage
+
+> Source: Temenos R25AMR API Catalog | See also: [Module Cross-Reference](module-api-cross-reference.md)
+
+### Mapped Modules
+
+| Module | Code | IRF APIs | Publisher APIs | PSD2 APIs | Primary Domain |
+|---|---|---|---|---|---|
+| Integration Framework | IF | 4 | 4 | 16 | system |
+| System Core | EB | 321 | 191 | 582 | system |
+| Origination Architecture | OA | 5 | 5 | 20 | reference |
+| **Total** | | **330** | **200** | **618** | |
+
+### Key API Patterns
+
+- Platform integration framework via IF module
+- Origination architecture via OA module (reference domain)
+- Core platform services via EB module
+
+### Integration Implications
+
+- Expected adapter: System Adapter + Reference Adapter (see `artefacts/04-integration-dependency-map/adapter-strategy.md`)

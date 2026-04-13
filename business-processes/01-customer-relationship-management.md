@@ -35,3 +35,28 @@ CRM processes consist of customer on-boarding and associated processes such as K
 
 ## Gap Notes
 <!-- Identified gaps and customisation requirements -->
+
+
+## Transact Module & API Coverage
+
+> Source: Temenos R25AMR API Catalog | See also: [Module Cross-Reference](module-api-cross-reference.md)
+
+### Mapped Modules
+
+| Module | Code | IRF APIs | Publisher APIs | PSD2 APIs | Primary Domain |
+|---|---|---|---|---|---|
+| Customer Relationship Management | CR | 23 | 0 | 23 | party |
+| Customer Data Protection | CZ | 10 | 0 | 10 | party |
+| Party | PY | 176 | 0 | 176 | party |
+| Consent Management | CK | 25 | 0 | 25 | party |
+| **Total** | | **234** | **0** | **234** | |
+
+### Key API Patterns
+
+- Customer onboarding and maintenance via CR module (party domain)
+- KYC/AML compliance checks via CZ module
+- Consent management for data sharing via CK module
+
+### Integration Implications
+
+- Expected adapter: Party Adapter (IRF + PSD2) (see `artefacts/04-integration-dependency-map/adapter-strategy.md`)

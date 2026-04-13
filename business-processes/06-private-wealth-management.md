@@ -42,3 +42,27 @@ Private Wealth Management processes covers the full life cycle of discretionary 
 
 ## Gap Notes
 <!-- Identified gaps and customisation requirements -->
+
+
+## Transact Module & API Coverage
+
+> Source: Temenos R25AMR API Catalog | See also: [Module Cross-Reference](module-api-cross-reference.md)
+
+### Mapped Modules
+
+| Module | Code | IRF APIs | Publisher APIs | PSD2 APIs | Primary Domain |
+|---|---|---|---|---|---|
+| Fiduciaries | FD | 26 | 16 | 0 | order |
+| Position Management | PM | 7 | 0 | 0 | holdings |
+| Securities | SC | 920 | 360 | 34 | holdings |
+| **Total** | | **953** | **376** | **34** | |
+
+### Key API Patterns
+
+- Securities trading and settlement via SC module
+- Portfolio/position management via PM module
+- Fiduciary services via FD module
+
+### Integration Implications
+
+- Expected adapter: Holdings Adapter (IRF) (see `artefacts/04-integration-dependency-map/adapter-strategy.md`)

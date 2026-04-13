@@ -36,3 +36,25 @@ Fund Accounting Processes cover creation of Accounting Chart along with account 
 
 ## Gap Notes
 <!-- Identified gaps and customisation requirements -->
+
+
+## Transact Module & API Coverage
+
+> Source: Temenos R25AMR API Catalog | See also: [Module Cross-Reference](module-api-cross-reference.md)
+
+### Mapped Modules
+
+| Module | Code | IRF APIs | Publisher APIs | PSD2 APIs | Primary Domain |
+|---|---|---|---|---|---|
+| Securities | SC | 920 | 360 | 34 | holdings |
+| SEAT AUTOMATED TOOL | SE | 3 | 0 | 2 | party |
+| **Total** | | **923** | **360** | **36** | |
+
+### Key API Patterns
+
+- Fund accounting and NAV calculation via SC module
+- Securities settlement and custody
+
+### Integration Implications
+
+- Expected adapter: Holdings Adapter (IRF) (see `artefacts/04-integration-dependency-map/adapter-strategy.md`)

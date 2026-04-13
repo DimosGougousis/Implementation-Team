@@ -1,7 +1,9 @@
 {
   "permissions": {
     "allow": [
-      "Bash(wc -l C:/Users/dimos/Implementation/agents/*.agent.md)"
+      "Bash(wc -l C:/Users/dimos/Implementation/agents/*.agent.md)",
+      "Bash(mkdir -p \"C:\\\\Users\\\\dimos\\\\Implementation\\\\docs\\\\reference-data\")",
+      "Bash(cp \"C:\\\\Users\\\\dimos\\\\Documents\\\\Temenos\\\\API Details R25AMR.xlsx\" \"C:\\\\Users\\\\dimos\\\\Implementation\\\\docs\\\\reference-data\\\\temenos-r25amr-api-catalog.xlsx\")"
     ]
   }
 }

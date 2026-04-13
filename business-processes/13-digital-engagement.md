@@ -36,3 +36,27 @@ Digital Engagement processes caters to designing, planning and executing results
 
 ## Gap Notes
 <!-- Identified gaps and customisation requirements -->
+
+
+## Transact Module & API Coverage
+
+> Source: Temenos R25AMR API Catalog | See also: [Module Cross-Reference](module-api-cross-reference.md)
+
+### Mapped Modules
+
+| Module | Code | IRF APIs | Publisher APIs | PSD2 APIs | Primary Domain |
+|---|---|---|---|---|---|
+| TEMENOS CONNECT ONBOARDING | T1 | 4 | 0 | 4 | userAdministration |
+| TCIB Common | T2 | 14 | 1 | 5 | party |
+| Online Services | AO | 44 | 0 | 0 | holdings |
+| **Total** | | **62** | **1** | **9** | |
+
+### Key API Patterns
+
+- Digital onboarding via T1 (Temenos Connect Onboarding)
+- Common digital banking features via T2 (TCIB Common)
+- Online self-service via AO module
+
+### Integration Implications
+
+- Expected adapter: System Adapter (IRF) (see `artefacts/04-integration-dependency-map/adapter-strategy.md`)

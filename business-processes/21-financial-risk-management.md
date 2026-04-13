@@ -34,3 +34,27 @@ Financial Risk Management illustrates various approaches or methodologies for ri
 
 ## Gap Notes
 <!-- Identified gaps and customisation requirements -->
+
+
+## Transact Module & API Coverage
+
+> Source: Temenos R25AMR API Catalog | See also: [Module Cross-Reference](module-api-cross-reference.md)
+
+### Mapped Modules
+
+| Module | Code | IRF APIs | Publisher APIs | PSD2 APIs | Primary Domain |
+|---|---|---|---|---|---|
+| Limits | LI | 256 | 0 | 0 | holdings |
+| Provisioning Module | PV | 4 | 0 | 2 | party |
+| Lifecycle Management - Collections | LMSCOL | 6 | 0 | 3 | party |
+| **Total** | | **266** | **0** | **5** | |
+
+### Key API Patterns
+
+- Credit limits and exposure management via LI module
+- Provisioning and impairment via PV module
+- Collections lifecycle management via LMSCOL module
+
+### Integration Implications
+
+- Expected adapter: Holdings Adapter (IRF) (see `artefacts/04-integration-dependency-map/adapter-strategy.md`)

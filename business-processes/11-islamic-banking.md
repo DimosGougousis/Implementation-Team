@@ -37,3 +37,24 @@ Islamic Banking Processes cover the work flow of Islamic model such as Asset Req
 
 ## Gap Notes
 <!-- Identified gaps and customisation requirements -->
+
+
+## Transact Module & API Coverage
+
+> Source: Temenos R25AMR API Catalog | See also: [Module Cross-Reference](module-api-cross-reference.md)
+
+### Mapped Modules
+
+| Module | Code | IRF APIs | Publisher APIs | PSD2 APIs | Primary Domain |
+|---|---|---|---|---|---|
+| Islamic Banking | IS | 499 | 20 | 0 | holdings |
+| **Total** | | **499** | **20** | **0** | |
+
+### Key API Patterns
+
+- Islamic banking products (Murabaha, Ijara, etc.) via IS module
+- Sharia-compliant arrangement lifecycle management
+
+### Integration Implications
+
+- Expected adapter: Holdings Adapter (IRF) (see `artefacts/04-integration-dependency-map/adapter-strategy.md`)

@@ -37,3 +37,25 @@ Financial Crime Mitigation Processes covers the creation of Mandator and User fo
 
 ## Gap Notes
 <!-- Identified gaps and customisation requirements -->
+
+
+## Transact Module & API Coverage
+
+> Source: Temenos R25AMR API Catalog | See also: [Module Cross-Reference](module-api-cross-reference.md)
+
+### Mapped Modules
+
+| Module | Code | IRF APIs | Publisher APIs | PSD2 APIs | Primary Domain |
+|---|---|---|---|---|---|
+| Customer Relationship Management | CR | 23 | 0 | 23 | party |
+| Customer Data Protection | CZ | 10 | 0 | 10 | party |
+| **Total** | | **33** | **0** | **33** | |
+
+### Key API Patterns
+
+- AML screening and customer due diligence via CR module
+- Customer data protection and GDPR via CZ module
+
+### Integration Implications
+
+- Expected adapter: Party Adapter (IRF + PSD2) (see `artefacts/04-integration-dependency-map/adapter-strategy.md`)

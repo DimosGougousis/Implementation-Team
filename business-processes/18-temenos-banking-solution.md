@@ -43,3 +43,27 @@ Temenos Banking Solution (TBS) Processes cover multiple fulfillment services:
 
 ## Gap Notes
 <!-- Identified gaps and customisation requirements -->
+
+
+## Transact Module & API Coverage
+
+> Source: Temenos R25AMR API Catalog | See also: [Module Cross-Reference](module-api-cross-reference.md)
+
+### Mapped Modules
+
+| Module | Code | IRF APIs | Publisher APIs | PSD2 APIs | Primary Domain |
+|---|---|---|---|---|---|
+| Arrangement Architecture | AA | 2,548 | 6 | 4 | holdings |
+| AA Retail accounts. | AR | 689 | 2 | 0 | holdings |
+| Arrangement Deposits | AD | 466 | 0 | 0 | holdings |
+| Arrangement Lending | AL | 770 | 1 | 0 | holdings |
+| **Total** | | **4,473** | **9** | **4** | |
+
+### Key API Patterns
+
+- Core banking product suite via AA framework (holdings domain)
+- Retail accounts, deposits, and lending as TBS components
+
+### Integration Implications
+
+- Expected adapter: Holdings Adapter (IRF) (see `artefacts/04-integration-dependency-map/adapter-strategy.md`)

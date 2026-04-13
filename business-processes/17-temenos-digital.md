@@ -37,3 +37,26 @@ Temenos Digital Processes covers customer on-boarding, retail and corporate serv
 
 ## Gap Notes
 <!-- Identified gaps and customisation requirements -->
+
+
+## Transact Module & API Coverage
+
+> Source: Temenos R25AMR API Catalog | See also: [Module Cross-Reference](module-api-cross-reference.md)
+
+### Mapped Modules
+
+| Module | Code | IRF APIs | Publisher APIs | PSD2 APIs | Primary Domain |
+|---|---|---|---|---|---|
+| System Core | EB | 321 | 191 | 582 | system |
+| TEMENOS CONNECT ONBOARDING | T1 | 4 | 0 | 4 | userAdministration |
+| TCIB Common | T2 | 14 | 1 | 5 | party |
+| **Total** | | **339** | **192** | **591** | |
+
+### Key API Patterns
+
+- Digital banking platform via EB System Core
+- Temenos Connect digital channels via T1/T2 modules
+
+### Integration Implications
+
+- Expected adapter: System Adapter (IRF/PSD2) (see `artefacts/04-integration-dependency-map/adapter-strategy.md`)

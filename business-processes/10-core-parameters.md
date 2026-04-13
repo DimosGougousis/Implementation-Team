@@ -33,3 +33,25 @@ Processes for setting up basic Transact parameters such as Interest, Fees and Ta
 
 ## Gap Notes
 <!-- Identified gaps and customisation requirements -->
+
+
+## Transact Module & API Coverage
+
+> Source: Temenos R25AMR API Catalog | See also: [Module Cross-Reference](module-api-cross-reference.md)
+
+### Mapped Modules
+
+| Module | Code | IRF APIs | Publisher APIs | PSD2 APIs | Primary Domain |
+|---|---|---|---|---|---|
+| System Core | EB | 321 | 191 | 582 | system |
+| System Tables | ST | 1,164 | 319 | 771 | party |
+| **Total** | | **1,485** | **510** | **1,353** | |
+
+### Key API Patterns
+
+- System configuration and parameters via EB/ST modules
+- Reference data management (party, reference domains)
+
+### Integration Implications
+
+- Expected adapter: System Adapter + Reference Adapter (see `artefacts/04-integration-dependency-map/adapter-strategy.md`)
