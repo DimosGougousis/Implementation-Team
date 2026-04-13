@@ -15,17 +15,21 @@ Execute the cutover runbook, manage the go/no-go decision, transition to product
 - [ ] Go/no-go criteria documented and assessed
 - [ ] Cutover rehearsal completed
 - [ ] Rollback tested
+- [ ] Legacy freeze plan reviewed and approved
 - [ ] Communication plan approved
 - [ ] War room booked and participants confirmed
 
 ## Key Activities
 1. Conduct final go/no-go review
-2. Execute cutover runbook (minute-by-minute)
-3. Monitor data migration execution
-4. Execute integration activation and smoke tests
-5. Enable user access and verify
-6. Monitor post-cutover stability
-7. Confirm go-live success
+2. Execute legacy system freeze (see `artefacts/07-cutover-runbook/legacy-freeze-plan.md`)
+3. Execute cutover runbook (minute-by-minute)
+4. Execute final data extraction and migration
+5. Execute reconciliation (source vs target)
+6. Execute integration activation and smoke tests
+7. Enable user access and verify
+8. Transition legacy to read-only
+9. Monitor post-cutover stability
+10. Confirm go-live success
 
 ## Artefacts Produced / Updated
 
@@ -35,11 +39,14 @@ Execute the cutover runbook, manage the go/no-go decision, transition to product
 
 ## Exit Criteria (Gate)
 - [ ] Go/no-go decision approved
+- [ ] Legacy system frozen (writes disabled)
 - [ ] Cutover executed per runbook
 - [ ] Data migration completed and validated
+- [ ] Reconciliation clean (or exceptions documented)
 - [ ] All integrations active and verified
 - [ ] Smoke tests passed
 - [ ] User access enabled
+- [ ] Legacy system in read-only mode
 - [ ] Post-cutover stability confirmed (T+4h)
 - [ ] Steering Committee notified of go-live
 

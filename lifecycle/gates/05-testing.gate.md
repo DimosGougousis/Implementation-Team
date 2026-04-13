@@ -24,6 +24,10 @@ Execute four-phase testing (Unit → Integration → SIT/Perf → UAT), track KP
 5. Track KPIs: pass rate, defect density, cycle time
 6. Manage defects through taxonomy
 7. Begin cutover runbook development
+8. Execute Data Migration Rehearsal 1 (full dress rehearsal)
+9. Execute reconciliation testing (source vs target)
+10. Execute parallel-run testing (if applicable)
+11. Execute legacy decommission testing
 
 ## Artefacts Produced / Updated
 
@@ -41,6 +45,9 @@ Execute four-phase testing (Unit → Integration → SIT/Perf → UAT), track KP
 - [ ] All High defects resolved or mitigated
 - [ ] Performance benchmarks met
 - [ ] Test exit criteria met for all phases
+- [ ] Migration Rehearsal 1 completed with acceptable results
+- [ ] Reconciliation testing passed
+- [ ] Parallel-run testing passed (if applicable)
 - [ ] Steering Committee approved test results
 
 ## Steering Committee Checkpoint

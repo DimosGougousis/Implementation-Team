@@ -23,22 +23,31 @@ Systematically assess each Temenos Transact module against business requirements
 4. Establish and track customisation budget
 5. Begin data quality profiling across source systems
 6. Document business process redesign requirements
+7. Process redesign decisions: adopt standard / adapt / abandon for each process
+8. Data migration strategy: approach (big bang / phased / parallel), domain prioritisation
+9. Integration rebuild vs retire decisions for each legacy integration
 
 ## Artefacts Produced / Updated
 
 | Artefact | Action | What Changes |
 |---|---|---|
 | Fit-Gap Register | Created | Master register with all module assessments |
-| Data Quality Scorecard | Started | Initial profiling results |
+| Data Quality Scorecard | Started | Initial profiling results, data estate report |
+| Data Quality Scorecard | Created | Domain complexity matrix, migration strategy |
 | Target-State Reference Architecture | Updated | Refined based on fit-gap findings |
+| Business Processes | Updated | Process redesign decisions (adopt/adapt/abandon) |
 
 ## Exit Criteria (Gate)
 - [ ] All Transact modules assessed
 - [ ] Fit-gap register complete with scores
 - [ ] Customisation budget established
 - [ ] Data profiling completed for all domains
-- [ ] Business process redesign documented
-- [ ] Steering Committee briefed on customisation scope
+- [ ] Data estate report produced
+- [ ] Domain complexity matrix completed
+- [ ] Migration strategy decided (approach, waves, timeline)
+- [ ] Business process redesign documented (adopt/adapt/abandon)
+- [ ] Integration rebuild vs retire decisions made
+- [ ] Steering Committee briefed on customisation scope and migration approach
 
 ## Steering Committee Checkpoint
 Present: fit-gap summary, customisation budget, key gaps, data quality baseline, recommended approach.

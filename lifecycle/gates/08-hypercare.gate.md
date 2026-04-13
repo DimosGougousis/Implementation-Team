@@ -19,11 +19,14 @@ Stabilise the platform through intensive support, transfer knowledge to the BAU 
 ## Key Activities
 1. Provide intensive support (Weeks 1–2)
 2. Monitor incident trends and resolve issues
-3. Transition to stabilisation phase (Weeks 3–4)
-4. Transfer knowledge to BAU team (Weeks 5–8)
-5. Finalise post-go-live operating model
-6. Achieve steady-state exit criteria
-7. Conduct programme retrospective
+3. Maintain legacy in parallel-run for reconciliation (Weeks 1–4)
+4. Transition to stabilisation phase (Weeks 3–4)
+5. Extract legacy data to regulatory-compliant archive (Weeks 4–8)
+6. Transfer knowledge to BAU team (Weeks 5–8)
+7. Execute legacy decommission (see `artefacts/07-cutover-runbook/legacy-decommission-plan.md`)
+8. Finalise post-go-live operating model
+9. Achieve steady-state exit criteria
+10. Conduct programme retrospective
 
 ## Artefacts Produced / Updated
 
@@ -36,6 +39,9 @@ Stabilise the platform through intensive support, transfer knowledge to the BAU 
 - [ ] ≤ 3 open SEV2 incidents
 - [ ] Incident trend declining for 2 weeks
 - [ ] L1 resolution rate ≥ 70%
+- [ ] Legacy parallel-run completed (if applicable)
+- [ ] Legacy data archived with verified access
+- [ ] Legacy system decommissioned (or decommission date confirmed)
 - [ ] BAU team fully trained
 - [ ] All documentation transferred
 - [ ] Formal handover sign-off obtained

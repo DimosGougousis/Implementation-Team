@@ -11,6 +11,11 @@ artefacts-updated: []
 Understand the bank's current state, strategic objectives, regulatory context, and programme scope. Establish the initial target-state reference architecture and confirm the implementation approach.
 
 ## Entry Criteria
+- [ ] Pre-Work checklist completed (see `lifecycle/pre-work/pre-work-checklist.md`)
+- [ ] Legacy system inventory documented
+- [ ] Data estate assessment completed
+- [ ] Integration landscape mapped
+- [ ] As-is business processes documented
 - [ ] Programme charter approved
 - [ ] Key stakeholders identified and engaged
 - [ ] Access to current-state documentation granted
@@ -22,6 +27,8 @@ Understand the bank's current state, strategic objectives, regulatory context, a
 4. Establish initial target-state reference architecture
 5. Confirm programme scope, timeline, and budget
 6. Identify key risks and dependencies
+7. Decide re-implementation approach (big bang / phased / parallel run)
+8. Assess legacy complexity and decommission timeline
 
 ## Artefacts Produced / Updated
 
@@ -30,8 +37,10 @@ Understand the bank's current state, strategic objectives, regulatory context, a
 | Target-State Reference Architecture | Created | Initial business capability map, component model, technology standards |
 
 ## Exit Criteria (Gate)
-- [ ] Current-state documented
+- [ ] Pre-Work checklist completed
+- [ ] Current-state documented (legacy system, data, integrations)
 - [ ] Strategic objectives agreed
+- [ ] Re-implementation approach decided (big bang / phased / parallel)
 - [ ] Initial target-state architecture produced
 - [ ] Programme scope confirmed
 - [ ] Key risks identified

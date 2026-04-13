@@ -25,6 +25,12 @@ Execute data profiling, cleansing, mapping, and rehearsals. Achieve quality gate
 5. Update quality scorecard with final metrics
 6. Finalise cutover runbook with migration timing
 7. Prepare reconciliation scripts
+8. Verify regulatory data preservation (audit trail, KYC/AML, retention)
+9. Prepare legacy data archive (regulatory-compliant)
+10. Validate reconciliation strategy (record counts, balances, referential integrity)
+8. Verify regulatory data preservation (audit trail, KYC/AML, retention)
+9. Prepare legacy data archive (regulatory-compliant)
+10. Validate reconciliation strategy (record counts, balances, referential integrity)
 
 ## Artefacts Produced / Updated
 
@@ -37,9 +43,13 @@ Execute data profiling, cleansing, mapping, and rehearsals. Achieve quality gate
 ## Exit Criteria (Gate)
 - [ ] All data domains cleansed
 - [ ] Rehearsal 1 completed with acceptable results
+- [ ] Regulatory data preservation verified
+- [ ] Legacy data archive prepared
 - [ ] Rehearsal 2 completed — all quality gates passed
 - [ ] Reconciliation scripts tested
 - [ ] Migration timing validated against cutover window
+- [ ] Regulatory data preservation verified
+- [ ] Legacy data archive prepared
 - [ ] Steering Committee approved migration readiness
 
 ## Steering Committee Checkpoint
