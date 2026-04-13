@@ -15,6 +15,14 @@
     "/^python -c \"\nimport pandas as pd\npath = r'C:\\\\Users\\\\dimos\\\\Implementation\\\\API Details R25AMR\\.xlsx'\n\nirf = pd\\.read_excel\\(path, sheet_name='IRF', header=1\\)\npub = pd\\.read_excel\\(path, sheet_name='Publisher', header=1\\)\npsd2 = pd\\.read_excel\\(path, sheet_name='PSD2', header=1\\)\nfor df in \\[irf, pub, psd2\\]:\n    df\\.columns = df\\.columns\\.str\\.strip\\(\\)\n\n# Build combined counts\nall_dfs = \\[\\]\nfor name, df in \\[\\('IRF', irf\\), \\('Publisher', pub\\), \\('PSD2', psd2\\)\\]:\n    counts = df\\.groupby\\('Module'\\)\\.size\\(\\)\\.reset_index\\(name=name\\)\n    all_dfs\\.append\\(counts\\)\nmerged = all_dfs\\[0\\]\nfor d in all_dfs\\[1:\\]:\n    merged = merged\\.merge\\(d, on='Module', how='outer'\\)\nmerged = merged\\.fillna\\(0\\)\\.astype\\(\\{c: int for c in merged\\.columns if c != 'Module'\\}\\)\nmerged\\['Total'\\] = merged\\['IRF'\\] \\+ merged\\['Publisher'\\] \\+ merged\\['PSD2'\\]\n\n# Module-to-process mapping from user spec\nmapping = \\{\n    '01': \\['CR','CZ','PY','CK'\\],\n    '02': \\['AA','AR','AD','AL','AC','RS'\\],\n    '03': \\['FL','LC','CO','LI','CONLIB'\\],\n    '04': \\['FT','PP','PI','BU','DD','DB','RF','BY'\\],\n    '05': \\['MM','FX','FR','DX','MD','ND','RP','TY','CW'\\],\n    '06': \\['FD','PM','SC'\\],\n    '07': \\['AO','EB','T1','T2','PW'\\],\n    '09': \\['AC','BF','ACCCSM'\\],\n    '10': \\['EB','ST'\\],\n    '11': \\['IS'\\],\n    '12': \\['USCORE','USRETL','USRTGS','CABASE','CALEND'\\],\n    '13': \\['T1','T2','AO'\\],\n    '14': \\['FA','MIFID2','USREGS','EV'\\],\n    '15': \\['CR','CZ'\\],\n    '16': \\['SC','SE'\\],\n    '17': \\['EB','T1','T2'\\],\n    '18': \\['AA','AR','AD','AL'\\],\n    '19': \\['AA','FL','AL'\\],\n    '20': \\['IF','IL','IY','RR','DW','EB'\\],\n    '21': \\['LI','PV','LMSCOL'\\],\n    '22': \\['IF','EB','OA'\\],\n\\}\n\nfor area, mods in sorted\\(mapping\\.items\\(\\)\\):\n    sub = merged\\[merged\\['Module'\\]\\.isin\\(mods\\)\\]\n    total = sub\\['Total'\\]\\.sum\\(\\)\n    print\\(f'\\{area\\}: \\{mods\\} -> \\{total\\}'\\)\n\"$/": {
       "approve": true,
       "matchCommandLine": true
+    },
+    "/^python -c \"import docx; print\\('python-docx available'\\)\" 2>&1$/": {
+      "approve": true,
+      "matchCommandLine": true
+    },
+    "/^python \"C:\\\\Users\\\\dimos\\\\Implementation\\\\docs\\\\reference-data\\\\create_user_guide\\.py\"$/": {
+      "approve": true,
+      "matchCommandLine": true
     }
   }
 }
