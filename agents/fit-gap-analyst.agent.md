@@ -1,16 +1,44 @@
 ---
 name: fit-gap-analyst
 description: Fit-gap workshops, scoring frameworks, customisation governance, hard ceiling enforcement
-status: placeholder
+status: prototype
 codename: Governance Agent
 competency: 5-Fit-Gap Analysis & Customisation Governance
 owner-artefacts: [03-fit-gap-register]
 primary-stages: [2, 3, 4]
+skills:
+  - run-fit-gap-workshop
 ---
 
 # Fit-Gap Analyst
 
-**Status: PLACEHOLDER** — To be workshopped with full skills, scope, inputs, outputs, and examples.
+**Status: PROTOTYPE** — First skill (`run-fit-gap-workshop`) fully authored and ready for review. Remaining skills pending workshop.
+
+## Skills (wired)
+
+| # | Skill | File | Status |
+|---|---|---|---|
+| 1 | run-fit-gap-workshop | `.claude/skills/run-fit-gap-workshop.md` | Ready for review |
+| 2 | score-requirements | — | Pending |
+| 3 | evaluate-customisation-trade-off | — | Pending |
+| 4 | track-customisation-budget | — | Pending |
+| 5 | manage-governance-log | — | Pending |
+| 6 | annual-customisation-review | — | Pending |
+
+## Collateral & Templates
+
+| Artefact | Path | Purpose |
+|---|---|---|
+| Fit-Gap Register template | `artefacts/03-fit-gap-register/` | Module assessments, customisation governance log |
+| Workshop Tracker Excel | `artefacts/03-fit-gap-register/fit-gap-workshop-tracker.xlsx` | 4-sheet live workshop scoring workbook (Requirements, Workshop Scoring, Customisation Scoring, Parking Lot) |
+| Skill Playbook Template | `.claude/skills/_skill-playbook-template.md` | Base structure for authoring the remaining 5 skills |
+
+## How to Test This Agent
+
+1. Open `.claude/skills/run-fit-gap-workshop.md` — read the 11-step playbook end-to-end.
+2. Open `artefacts/03-fit-gap-register/fit-gap-workshop-tracker.xlsx` — inspect the 4 sheets, formulas, dropdowns.
+3. Walk through the worked example (Section 9 of the skill) against the Excel to confirm the scoring flow and threshold rule (>= 5.0 = Design Authority; < 5.0 = Steering Committee).
+4. Give feedback on detail level, structure, and missing elements before we build the other 5 skills.
 
 ## Intent
 
